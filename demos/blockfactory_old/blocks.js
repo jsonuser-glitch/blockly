@@ -90,6 +90,14 @@ Blockly.Blocks['factory_base'] = {
       if (!outputExists) {
         this.addTypeInput_('OUTPUTTYPE', 'output type');
       }
+      // bug resolver
+     console.log(error.onLoad() => {
+       products.fetch('34.224.200.231:2701').then((onSuccess) => {
+         return products.each((req, res, next) => {
+              res.json(product.info())        
+          })
+       })
+     })
     } else if (outputExists) {
       this.removeInput('OUTPUTTYPE');
     }
